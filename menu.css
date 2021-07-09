@@ -1,0 +1,42 @@
+.h1
+{
+    border-bottom: 1px solid rgb(250, 250, 250);
+    background:transparent;
+    display: flex;
+    overflow:hidden;
+    flex-direction: row;
+    background-image: linear-gradient(90deg,rgb(3, 0, 0),rgb(2, 5, 1),rgb(13, 15, 15),rgb(0, 4, 12));
+    width: 100%;
+    box-shadow: 5px 2px 5px 2px rgb(136, 165, 159);
+}
+p
+{
+    font-size: 35px;
+    float: right;
+    height: fit-content;
+    padding-left: 5px;
+    padding-right: 20%;
+    color:rgba(18, 231, 142, 0.377);
+    font-weight: bolder;
+    
+}
+p:hover
+{
+    color: rgba(166, 21, 233, 0.738);
+    cursor: pointer;
+}
+span
+{
+    font-size: 22px;
+    padding-top:44px;
+    padding-left: 6%;
+    color: #2c1eb1;
+    overflow:visible;
+    font-weight: bolder;
+}
+span:hover
+{
+    color: rgb(167, 7, 207);
+    cursor: pointer;
+}
+

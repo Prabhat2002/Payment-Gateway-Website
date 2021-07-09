@@ -1,0 +1,78 @@
+.App {
+    text-align: center;
+  }
+
+GooglePayButton
+{
+  color: #61dafb;   
+}
+
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: rgb(12, 138, 155);
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  #desc
+  {
+     padding: 5px 5px;
+     width:90%;
+     margin:0% 5%;
+     font-size: 22px;
+     font-weight: lighter;
+     color: rgb(7, 192, 248);
+     background: url("logo.jpg") no-repeat center center fixed;
+     background-size: cover;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+ 
+  #button
+  {
+    border: 3px solid rgb(219, 205, 205);
+    border-radius:25px;
+    padding:6px 10px;
+    color:rgb(0, 0, 0);
+    background:transparent;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+  }
+  #button:hover
+  {
+    border: 3px solid rgb(202, 185, 185);
+    color: rgb(0, 18, 117);
+    font-size: 14px;
+    padding:5.5px 10.5px;
+    font-weight: bolder;
+  }
+  h3
+  {
+    color: rgba(241, 16, 0, 0.705);
+    font-size: 30px;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  h3:hover
+  {
+     color: rgba(238, 4, 4, 0.863);
+     font-weight: bolder;
+  }

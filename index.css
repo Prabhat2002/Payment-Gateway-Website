@@ -1,0 +1,24 @@
+
+h3
+{
+    margin-top:50px;
+    color: rgb(34, 3, 27);
+    font-size: 30px;
+    text-align: center;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+body
+{
+    width: 1220px;
+    height: 240px;
+    background: url("logo.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+h4
+{
+    margin-top:196px;
+    color: rgb(0, 34, 29);
+    position: relative;
+    font-size: 22px;
+}
